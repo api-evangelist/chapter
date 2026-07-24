@@ -1,9 +1,25 @@
 aid: chapter
 name: Chapter
-description: 'Chapter is a company surfaced as a portfolio company of addition and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Chapter is a technology-driven Medicare advisory service (parent company Memoir, Inc.;
+  insurance services via Chapter Advisory, LLC) that helps older Americans navigate retirement healthcare.
+  Licensed advisors and self-service tools compare and enroll consumers across all major Medicare carriers
+  nationwide, representing 50 organizations offering more than 15,000 products, and serving 500,000+
+  enrollees with a 4.9/5 rating across 6,700+ reviews. Chapter is HIPAA compliant, BBB accredited, and
+  also ships a consumer OTC benefits app. Founded 2020 in New York City; backed by Addition. This is a
+  consumer healthtech company with no public developer/API surface at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/chapter/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://askchapter.org/site-preview.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthtech
+- Medicare
+- Insurance
+- Health Insurance
+- Senior Care
+- Retirement
+- Consumer Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/chapter-domain-security.yml
 - type: Website
   url: https://askchapter.org
+- type: Blog
+  name: Chapter Magazine
+  url: https://askchapter.org/magazine
+- type: TermsOfService
+  url: https://askchapter.org/terms-of-service
+- type: PrivacyPolicy
+  url: https://askchapter.org/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
