@@ -8,6 +8,17 @@ description: 'Chapter is a technology-driven Medicare advisory service (parent c
   also ships a consumer OTC benefits app. Founded 2020 in New York City; backed by Addition. This is a
   consumer healthtech company with no public developer/API surface at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/chapter/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
