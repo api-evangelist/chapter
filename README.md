@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Chapter is a company surfaced as a portfolio company of addition and added to the API Evangelist network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting the enrichment pipeline.
+Chapter is a technology-driven Medicare advisory service (parent company Memoir, Inc.; insurance services via Chapter Advisory, LLC) that helps older Americans navigate retirement healthcare. Licensed advisors and self-service tools compare and enroll consumers across all major Medicare carriers nationwide, representing 50 organizations offering more than 15,000 products, and serving 500,000+ enrollees with a 4.9/5 rating across 6,700+ reviews. Chapter is HIPAA compliant, BBB accredited, and also ships a consumer OTC benefits app. Founded 2020 in New York City; backed by Addition. This is a consumer healthtech company with no public developer/API surface at the time of enrichment.
 
-Backed by: addition — https://askchapter.org
+**Areas:** Company · Health Tech · Medicare · Insurance · Health Insurance · Senior Care · Retirement · Consumer Health
+
+## Chapter on APIs.io
+
+Everything profiled for Chapter is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chapter/](https://apis.io/providers/chapter/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chapter Domain Security](https://apis.io/security/chapter/chapter-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://askchapter.org)
+- [Blog](https://askchapter.org/magazine)
+- [Terms of service](https://askchapter.org/terms-of-service)
+- [Privacy policy](https://askchapter.org/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chapter/](https://apis.io/providers/chapter/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chapter: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chapter/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
